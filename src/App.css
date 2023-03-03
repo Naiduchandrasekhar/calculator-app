@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.calculatorBox{
+ background-color: #202020;
+ min-height: 200px;
+ width: 180px;
+ padding: 5px;
+ border-radius: 6px;
+}
+
+.clearBtn{
+  color: #e4d6db;
+  background-color: palevioletred;
+}
+
+.button{
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  border-radius: 6px;
+}
+
+.button:hover{
+  background-color: #61dafb;
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
